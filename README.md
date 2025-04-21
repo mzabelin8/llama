@@ -32,6 +32,12 @@ llama/
 └── data/                   # Data directory (created automatically)
 ```
 
+## Dataset
+
+The model is trained on the **ashaba1in/small_openwebtext** dataset, which is a smaller version of the OpenWebText corpus. OpenWebText consists of web texts collected from URLs shared on Reddit with high engagement. This dataset is suitable for language modeling tasks and is used for training text generation models like this LLaMA implementation.
+
+The dataset is automatically downloaded during the training process and preprocessed to create fixed-length sequences for efficient training.
+
 ## Usage
 
 ### Training the Model
